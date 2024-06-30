@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<DialogPane fx:id="mainPane" prefHeight="348.0" prefWidth="515.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rumpel.rumpeldesktop.mvc.controllers.BillFormController">
+    <content>
+        <BorderPane prefHeight="384.0" prefWidth="515.0" styleClass="panel">
+            <center>
+                <BorderPane prefHeight="248.0" prefWidth="384.0">
+                    <center>
+                        <AnchorPane prefHeight="190.0" prefWidth="474.0" BorderPane.alignment="CENTER">
+                            <DatePicker fx:id="billDatePicker" layoutX="147.0" layoutY="20.0" prefHeight="36.0" prefWidth="319.0" />
+                            <Label layoutX="7.0" layoutY="125.0" prefHeight="36.0" prefWidth="118.0" text="%payment_method" textAlignment="CENTER">
+                        <font>
+                           <Font size="14.0" />
+                        </font></Label>
+                            <Label fx:id="lblDate" layoutX="10.0" layoutY="20.0" prefHeight="36.0" prefWidth="118.0" text="%date" textAlignment="CENTER">
+                        <font>
+                           <Font size="14.0" />
+                        </font></Label>
+                            <ComboBox fx:id="currComboBox" layoutX="149.0" layoutY="74.0" prefHeight="36.0" prefWidth="319.0" promptText="%none_selected" />
+                            <ComboBox fx:id="pmComboBox" layoutX="148.0" layoutY="125.0" prefHeight="36.0" prefWidth="319.0" promptText="%none_selected" />
+                            <Label layoutX="8.0" layoutY="74.0" prefHeight="36.0" prefWidth="118.0" text="%currency" textAlignment="CENTER">
+                        <font>
+                           <Font size="14.0" />
+                        </font></Label>
+                     <Button fx:id="insertItemsBtn" layoutX="147.0" layoutY="197.0" mnemonicParsing="false" onAction="#openItemBillDialog" prefHeight="27.0" prefWidth="154.0" text="%insert_items">
+                        <styleClass>
+                           <String fx:value="btn" />
+                           <String fx:value="btn-primary" />
+                        </styleClass>
+                        <effect>
+                           <DropShadow spread="0.1">
+                              <color>
+                                 <Color opacity="0.5" />
+                              </color>
+                           </DropShadow>
+                        </effect>
+                     </Button>
+                            <Button fx:id="insertBtn" layoutX="314.0" layoutY="197.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="154.0" text="%insert">
+                                <styleClass>
+                                    <String fx:value="btn" />
+                                    <String fx:value="btn-primary" />
+                                </styleClass>
+                                <effect>
+                                    <DropShadow spread="0.1">
+                                        <color>
+                                            <Color opacity="0.5" />
+                                        </color>
+                                    </DropShadow>
+                                </effect>
+                            </Button>
+                        </AnchorPane>
+                    </center>
+               <bottom>
+                  <BorderPane prefHeight="65.0" prefWidth="475.0" BorderPane.alignment="CENTER">
+                     <left>
+                         <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="15.0" BorderPane.alignment="CENTER">
+                             <Label fx:id="lblTotal" text="Total: ">
+                                <font>
+                                    <Font name="System Bold" size="16.0" />
+                                </font>
+                             </Label>
+                             <Label>
+                                <font>
+                                    <Font name="System Bold" size="16.0" />
+                                </font>
+                             </Label>
+                         </HBox>
+                     </left>
+                  </BorderPane>
+               </bottom>
+                </BorderPane>
+            </center>
+            <padding>
+                <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+            </padding>
+        </BorderPane>
+    </content>
+    <styleClass>
+        <String fx:value="panel" />
+        <String fx:value="panel-info" />
+    </styleClass>
+</DialogPane>

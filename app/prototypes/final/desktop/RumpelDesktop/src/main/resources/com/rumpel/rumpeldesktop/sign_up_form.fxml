@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<HBox fx:id="mainPane" onKeyPressed="#enterPressed" prefHeight="394.0" prefWidth="779.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rumpel.rumpeldesktop.mvc.controllers.SignUpFormController">
+    <AnchorPane prefHeight="400.0" prefWidth="260.0" style="-fx-background-color: lightyellow;">
+        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="55.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@dollar-icon.png" />
+        </ImageView>
+        <Label layoutX="60.0" layoutY="200.0" styleClass="h1" text="Rumpel">
+            <font>
+                <Font name="Arial Bold" size="38.0" />
+            </font>
+        </Label>
+        <ImageView fitHeight="110.0" fitWidth="131.0" layoutX="94.0" layoutY="276.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@user-icon.png" />
+        </ImageView>
+        <styleClass>
+            <String fx:value="panel" />
+            <String fx:value="panel-info" />
+        </styleClass>
+    </AnchorPane>
+    <BorderPane>
+        <center>
+            <AnchorPane prefHeight="400.0" prefWidth="519.0">
+                <Label layoutX="15.0" layoutY="104.0" prefHeight="36.0" prefWidth="169.0" style="-fx-text-fill: black; -fx-font-size: 14px; -fx-alignment: center-left;" styleClass="lbl" text="%email" AnchorPane.leftAnchor="20.0">
+                    <font>
+                        <Font name="Arial" size="14.0" />
+                    </font>
+                </Label>
+                <Label layoutX="13.0" layoutY="228.0" prefHeight="36.0" prefWidth="169.0" style="-fx-text-fill: black; -fx-font-size: 14px; -fx-alignment: center-left;" styleClass="lbl" text="%confirm_password" AnchorPane.leftAnchor="20.0">
+                    <font>
+                        <Font name="Arial" size="14.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="userTxtField" layoutX="209.0" layoutY="47.0" prefHeight="36.0" prefWidth="243.0" promptText="%username" />
+                <TextField fx:id="emailField" layoutX="209.0" layoutY="105.0" prefHeight="36.0" prefWidth="243.0" promptText="%email" />
+                <PasswordField fx:id="passField" layoutX="209.0" layoutY="169.0" prefHeight="36.0" prefWidth="243.0" promptText="%password" />
+                <TextField fx:id="showPassField" layoutX="209.0" layoutY="168.0" prefHeight="36.0" prefWidth="243.0" promptText="%password" visible="false" />
+                <PasswordField fx:id="passFieldConfirm" layoutX="209.0" layoutY="229.0" prefHeight="36.0" prefWidth="243.0" promptText="%confirm_password" />
+                <TextField fx:id="showPassFieldConfirm" layoutX="209.0" layoutY="228.0" prefHeight="36.0" prefWidth="243.0" promptText="%confirm_password" visible="false" />
+                <CheckBox fx:id="showPassCheck" layoutX="20.0" layoutY="287.0" mnemonicParsing="false" text="%show_pass">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </CheckBox>
+                <Button fx:id="signUpBtn" layoutX="209.0" layoutY="284.0" mnemonicParsing="false" onAction="#signUp" prefHeight="27.0" prefWidth="123.0" text="%sign_up">
+                    <font>
+                        <Font name="Arial" size="14.0" />
+                    </font>
+                    <styleClass>
+                        <String fx:value="btn" />
+                        <String fx:value="btn-primary" />
+                    </styleClass>
+                    <effect>
+                        <DropShadow spread="0.1">
+                            <color>
+                                <Color opacity="0.5" />
+                            </color>
+                        </DropShadow>
+                    </effect>
+                    <cursor>
+                        <Cursor fx:constant="OPEN_HAND" />
+                    </cursor>
+                </Button>
+                <Button fx:id="switchToLoginBtn" layoutX="330.0" layoutY="348.0" mnemonicParsing="false" onAction="#switchToLogin" style="-fx-background-color: transparent;" text="%login" textFill="#2146ff" underline="true"/>
+
+                <Label layoutX="15.0" layoutY="168.0" prefHeight="36.0" prefWidth="169.0" style="-fx-text-fill: black; -fx-font-size: 14px; -fx-alignment: center-left;" styleClass="lbl" text="%password" AnchorPane.leftAnchor="20.0">
+                    <font>
+                        <Font name="Arial" size="14.0" />
+                    </font>
+                </Label>
+                <Label layoutX="15.0" layoutY="47.0" prefHeight="36.0" prefWidth="169.0" style="-fx-text-fill: black; -fx-font-size: 14px; -fx-alignment: center-left;" styleClass="lbl" text="%username" AnchorPane.leftAnchor="20.0">
+                    <font>
+                        <Font name="Arial" size="14.0" />
+                    </font>
+                </Label>
+                <Label alignment="CENTER_RIGHT" layoutX="134.0" layoutY="343.0" prefHeight="36.0" prefWidth="150.0" text="%already_member">
+                    <font>
+                        <Font name="Arial" size="14.0" />
+                    </font>
+                </Label>
+            </AnchorPane>
+        </center>
+        <top>
+            <ToolBar style="-fx-border-width: 0;" BorderPane.alignment="CENTER">
+                <Button fx:id="goBackBtn" mnemonicParsing="false" onAction="#switchToLogin" prefHeight="27.0" prefWidth="41.0">
+                    <styleClass>
+                        <String fx:value="btn" />
+                        <String fx:value="btn-primary" />
+                    </styleClass>
+                    <opaqueInsets>
+                        <Insets />
+                    </opaqueInsets>
+                </Button>
+                <opaqueInsets>
+                    <Insets />
+                </opaqueInsets>
+                <padding>
+                    <Insets top="20.0" />
+                </padding>
+                <BorderPane.margin>
+                    <Insets left="28.0" />
+                </BorderPane.margin>
+            </ToolBar>
+        </top>
+        <styleClass>
+            <String fx:value="panel" />
+            <String fx:value="panel-info" />
+        </styleClass>
+    </BorderPane>
+</HBox>

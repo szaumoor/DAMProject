@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/about_padding">
+
+    <Button
+        android:id="@+id/btn_modify_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.4"
+        android:maxWidth="@dimen/max_date_btn_size"
+        android:minWidth="@dimen/min_date_btn_size"
+        android:text="@string/modify" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="@dimen/no_size"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btn_delete_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.4"
+        android:maxWidth="@dimen/max_date_btn_size"
+        android:minWidth="@dimen/min_date_btn_size"
+        android:text="@string/delete" />
+</LinearLayout>

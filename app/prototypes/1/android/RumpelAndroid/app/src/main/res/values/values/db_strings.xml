@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- DATABASE COMMON STRINGS -->
+    <string name="db_name" translatable="false">rumpel</string>
+    <string name="db_id" translatable="false">id</string>
+    <!--#########################-->
+
+    <!-- PAYMENT METHOD TABLE -->
+    <string name="pm_table" translatable="false">PaymentMethod</string>
+    <string name="pm" translatable="false">Payment method</string>
+    <string name="pm_name" translatable="false">methodName</string>
+    <!--#########################-->
+
+    <!-- ITEM BILL TABLE -->
+    <string name="ib_table" translatable="false">ItemBill</string>
+    <string name="ib_name" translatable="false">name</string>
+    <string name="ib_price" translatable="false">price</string>
+    <string name="ib_b_ref" translatable="false">bill</string>
+    <!--#########################-->
+
+    <!-- TAGGED ITEM TABLE -->
+    <string name="ti_table" translatable="false">TaggedItem</string>
+    <string name="ti_it_ref" translatable="false">idItem</string>
+    <string name="ti_tag_ref" translatable="false">idTag</string>
+    <!--#########################-->
+
+    <!-- TAG TABLE -->
+    <string name="tag_table" translatable="false">Tag</string>
+    <string name="tag_name" translatable="false">name</string>
+    <!--#########################-->
+
+    <!-- BILL TABLE -->
+    <string name="bill_table" translatable="false">Bill</string>
+    <string name="bill_date" translatable="false">billDate</string>
+    <string name="bill_total" translatable="false">total</string>
+    <string name="bill_pm_ref" translatable="false">paymentMethod</string>
+    <!--#########################-->
+
+    <!-- BUDGET TABLE -->
+    <string name="bud_table" translatable="false">Budget</string>
+    <string name="bud_sdate" translatable="false">startDate</string>
+    <string name="bud_edate" translatable="false">endDate</string>
+    <string name="bud_slimit" translatable="false">softLimit</string>
+    <string name="bud_hlimit" translatable="false">hardLimit</string>
+    <string name="bud_pm_ref" translatable="false">paymentMethod</string>
+    <!--#########################-->
+</resources>

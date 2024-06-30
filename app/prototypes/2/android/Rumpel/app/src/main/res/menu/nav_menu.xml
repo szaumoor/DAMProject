@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_menu_home"
+            android:title="@string/nav_home"
+            android:icon="@drawable/nav_view_home"/>
+
+        <item
+            android:id="@+id/nav_menu_payment_method"
+            android:title="@string/nav_payment_methods"
+            android:icon="@drawable/payment_methods"/>
+
+        <item
+            android:id="@+id/nav_menu_budgets"
+            android:title="@string/nav_budgets"
+            android:icon="@drawable/nav_menu_budgets"/>
+
+        <item
+            android:id="@+id/nav_menu_tags"
+            android:title="@string/nav_tags"
+            android:icon="@drawable/nav_menu_tags"/>
+
+        <item
+            android:id="@+id/nav_menu_settings"
+            android:title="@string/nav_settings"
+            android:icon="@drawable/nav_view_settings"/>
+
+        <item
+            android:id="@+id/nav_menu_about"
+            android:title="@string/nav_about"
+            android:icon="@drawable/nav_view_about"/>
+
+        <item
+            android:id="@+id/nav_menu_logout"
+            android:title="@string/nav_logout"
+            android:icon="@drawable/nav_logout"/>
+    </group>
+</menu>

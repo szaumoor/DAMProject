@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="mainPane" prefHeight="266.0" prefWidth="471.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rumpel.rumpeldesktop.mvc.controllers.ChartSelectionController">
+    <center>
+        <AnchorPane prefHeight="405.0" prefWidth="471.0" BorderPane.alignment="CENTER">
+            <Spinner fx:id="spinnerMonth" disable="true" layoutX="179.0" layoutY="43.0" prefHeight="27.0" prefWidth="210.0" />
+            <Spinner fx:id="spinnerYear" disable="true" layoutX="179.0" layoutY="92.0" prefHeight="27.0" prefWidth="210.0" />
+            <Label fx:id="lblMonth" disable="true" layoutX="54.0" layoutY="41.0" prefHeight="32.0" prefWidth="121.0" text="%month">
+            <font>
+               <Font size="14.0" />
+            </font></Label>
+            <Label layoutX="53.0" layoutY="136.0" prefHeight="32.0" prefWidth="118.0" text="%type_of_report">
+            <font>
+               <Font size="14.0" />
+            </font></Label>
+            <ComboBox fx:id="typeComboBox" layoutX="178.0" layoutY="137.0" prefHeight="29.0" prefWidth="210.0" promptText="%select_type" />
+            <Button layoutX="256.0" layoutY="231.0" mnemonicParsing="false" onAction="#openChartView" prefHeight="27.0" prefWidth="133.0" text="%generate">
+                <styleClass>
+                    <String fx:value="btn" />
+                    <String fx:value="btn-primary" />
+                </styleClass>
+                <effect>
+                    <DropShadow spread="0.1">
+                        <color>
+                            <Color opacity="0.5" />
+                        </color>
+                    </DropShadow>
+                </effect>
+            </Button>
+         <Label fx:id="lblYear" disable="true" layoutX="52.0" layoutY="87.0" prefHeight="32.0" prefWidth="121.0" text="%year">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Label>
+         <Label layoutX="54.0" layoutY="179.0" prefHeight="32.0" prefWidth="118.0" text="%currency">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Label>
+         <ComboBox fx:id="currComboBox" layoutX="179.0" layoutY="180.0" prefHeight="29.0" prefWidth="210.0" promptText="%select_currency" />
+        </AnchorPane>
+    </center>
+</BorderPane>

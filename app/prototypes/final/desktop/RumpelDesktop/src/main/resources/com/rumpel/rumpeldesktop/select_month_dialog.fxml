@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="172.0" prefWidth="431.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.rumpel.rumpeldesktop.mvc.controllers.SelectMonthDialogController">
+   <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="101.0" layoutY="56.0" prefHeight="19.0"
+          prefWidth="67.0" text="%year"/>
+   <Label alignment="CENTER_RIGHT" layoutX="80.0" layoutY="98.0" prefHeight="19.0" prefWidth="88.0" text="%month"/>
+   <Spinner fx:id="year" layoutX="189.0" layoutY="52.0"/>
+   <Spinner fx:id="month" layoutX="189.0" layoutY="94.0"/>
+</AnchorPane>

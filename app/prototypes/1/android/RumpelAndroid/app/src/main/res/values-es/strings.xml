@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rumpel</string>
+    <string name="nav_home">Inicio</string>
+    <string name="nav_settings">Preferencias</string>
+    <string name="nav_logout">Salir de la app</string>
+    <string name="nav_about">Sobre la app</string>
+    <string name="author">Autor</string>
+    <string name="about_powered_by">Creado con la tecnología de Android y Java</string>
+    <string name="developer">Desarrollador</string>
+    <string name="author_contact">Contacto</string>
+    <string name="nav_payment_methods">Métodos de pago</string>
+    <string name="nav_budgets">Presupuestos</string>
+    <string name="nav_tags">Etiquetas</string>
+    <string name="add_bill">Añadir factura</string>
+    <string name="add_item_bill">Añadir línea</string>
+    <string name="pick_a_date_hint">Escoge una fecha…</string>
+    <string name="item_bill_txt">Nombre del elemento…</string>
+    <string name="item_bill_price">Precio del elemento…</string>
+    <string name="add_bill_error">No puedes añadir facturas sin elementos</string>
+    <string name="insert_item">Insertar línea</string>
+    <string name="item_bill_check">Las líneas de factura deben de tener un nombre</string>
+    <string name="item_bill_price_decimal_check">Los precious sólo pueden tener dos números decimales</string>
+</resources>

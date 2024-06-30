@@ -1,0 +1,222 @@
+<resources>
+    <string name="app_name" translatable="false">Rumpel</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_logout">Log out</string>
+    <string name="nav_about">About</string>
+
+    <string name="author_email" translatable="false">marcos.chamosa.r@gmail.com</string>
+    <string name="author_name" translatable="false">Marcos Chamosa</string>
+    <string name="author_contact">Contact</string>
+    <string name="author">Author</string>
+    <string name="developer">Developer</string>
+
+
+    <string name="about_powered_by">Powered by Android, Java, and Kotlin</string>
+    <string name="about_dialog_ok" translatable="false">OK</string>
+
+    <string name="failed_to_authenticate">Failed to authenticate, revise your credentials</string>
+
+    <string name="passwords_dont_match">Passwords do not match, please revise</string>
+
+    <string name="version" translatable="false">v1.0</string>
+    <string name="nav_payment_methods">Payment methods</string>
+    <string name="nav_budgets">Budgets</string>
+    <string name="nav_tags">Tags</string>
+    <string name="add_bill">Add bill</string>
+
+    <string name="add_item_bill">Add item</string>
+    <string name="pick_a_date_hint">Pick a date…</string>
+
+    <string name="ellipsis" translatable="false">…</string>
+    <string name="pick_date">Pick date</string>
+    <string name="item_bill_txt">Item name…</string>
+    <string name="item_bill_price">Item price…</string>
+    <string name="default_item_price" translatable="false">0.00</string>
+    <string name="item_bill_check">Items must have a name and a price</string>
+    <string name="item_bill_price_decimal_check">Prices can only have two decimal numbers</string>
+    <string name="no_bill_items_error">Cannot add bills without items or modify them to have no items</string>
+    <string name="insert_item">Insert item</string>
+    <string name="modify_item">Modify item</string>
+
+    <string name="add_bill_names_missing_error">There are bill items without name. Please revise.</string>
+    <string name="add_bill_price_missing_error">There are bill items without price. Please revise.</string>
+    <string name="total">Total:</string>
+
+    <string name="btn_scan_bill">Scan bill</string>
+    <string name="modify">Modify</string>
+    <string name="delete">Delete</string>
+
+    <string name="permission_cam_required">Permission to use camera is required</string>
+
+    <string name="bill_added">Bill added</string>
+    <string name="pm_error">Can\'t have a payment method name of less than 3 characters</string>
+    <string name="end_date">End date</string>
+    <string name="start_date">Start date</string>
+    <string name="soft_limit">Soft limit</string>
+    <string name="hard_limit">Hard limit</string>
+    <string name="insert_budget">Insert budget</string>
+    <string name="title_activity_login" translatable="false">LoginActivity</string>
+    <string name="prompt_email" translatable="false">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="login">Log in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="not_an_user_yet">Not an user yet?</string>
+    <string name="rumpel" translatable="false">Rumpel</string>
+    <string name="username">Username</string>
+    <string name="repeat_password">Repeat password</string>
+    <string name="already_an_user">Already an user?</string>
+    <string name="title_activity_main" translatable="false">MainActivity</string>
+    <string name="show_password">Show password</string>
+    <string name="insert_payment_method">Insert payment method</string>
+    <string name="insert_tag">Insert tag</string>
+    <string name="hide_password">Hide password</string>
+    <string name="hello">Hi there,</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="or">or</string>
+    <string name="menu">Menu</string>
+    <string name="add_pm">Add payment method</string>
+    <string name="add_tag">Add tag</string>
+    <string name="interval">Interval</string>
+    <string name="limits">Limits</string>
+    <string name="currency">Currency</string>
+    <string name="universal">Universal</string>
+    <string name="add_budget">Add budget</string>
+    <string name="pm">Payment method</string>
+    <string name="empty_credentials">Please fill out the credential fields first</string>
+    <string name="empty_fields_error">Please fill out all fields</string>
+    <string name="new_tag">New tag</string>
+    <string name="tag_name">Tag name</string>
+    <string name="modify_tag">Modify tag</string>
+    <string name="modify_method">Modify method</string>
+    <string name="new_pm">New method</string>
+    <string name="method_name">Method name</string>
+    <string name="new_budget">New budget</string>
+    <string name="modify_budget">Modify budget</string>
+    <string name="choose_payment_method">Choose payment method</string>
+    <string name="choose_currency">Choose currency</string>
+    <string name="add_item">Add item</string>
+    <string name="name">Name</string>
+    <string name="price">Price</string>
+    <string name="select_image">Select image</string>
+    <string name="permission_storage_required">Permission to read images is required</string>
+    <string name="elements">Elements</string>
+    <string name="date">Date</string>
+    <string name="new_item">New item</string>
+    <string name="item_name">Item name</string>
+    <string name="select_tags">Select tags</string>
+    <string name="reports">Reports</string>
+    <string name="chart_wait_text">Hang in there, this may take some time…</string>
+    <string name="new_report">New report</string>
+    <string name="type_report">Choose type of report</string>
+    <string name="tag_reports_month">1. Tags in a month</string>
+    <string name="tag_reports_year">2. Tags in a year</string>
+    <string name="tag_reports_yearly">3. Tags since year</string>
+    <string name="pm_reports_month">4. Payments in a month</string>
+    <string name="pm_reports_year">5. Payments in year</string>
+    <string name="pm_reports_yearly">6. Payments since year</string>
+    <string name="expenses_reports_month">7. Expenses in a month</string>
+    <string name="expenses_reports_year">8. Expenses in a year</string>
+    <string name="expenses_reports_yearly">9. Expenses since year</string>
+    <string name="welcome_comma">"Welcome, "</string>
+    <string name="welcome">Welcome</string>
+    <string name="pick_month">Pick month</string>
+    <string name="year">Year</string>
+    <string name="generate_report">Generate report</string>
+    <string name="full_year">Full year</string>
+    <string name="pie">Pie</string>
+    <string name="bar">Bar</string>
+    <string name="select_month">Select month</string>
+    <string name="select_report_type">Select report type</string>
+    <string name="new_bill">New bill</string>
+    <string name="your_tags">Your tags</string>
+    <string name="your_payment_methods">Your payment methods</string>
+    <string name="your_budgets">Your budgets</string>
+    <string name="insert_bill">Insert bill</string>
+    <string name="account">Account</string>
+    <string name="select_currency">Select currency</string>
+    <string name="error_missing_pm_curr">Please add first a currency and a payment method for this bill</string>
+    <string name="price_must_be_number">Price must be a number</string>
+    <string name="error_insertion">Error inserting value!</string>
+    <string name="no_elements_present">No elements present yet</string>
+    <string name="months">Months</string>
+    <string name="years">Years</string>
+    <string name="no_report_type_selected">Please select a report type first</string>
+    <string name="must_select_currency">Please select a currency associated with this report first</string>
+    <string name="must_select_month">Must select month for this type of report</string>
+    <string name="must_select_year">Must select a year for the report.</string>
+    <string name="pie_not_available">Pie charts are not available for this report type</string>
+    <string name="tags">Tags</string>
+    <string name="pms">Payment methods</string>
+    <string name="days_of_the_week">Days of the week</string>
+
+    <string-array name="report_types">
+        <item>@string/tag_reports_month</item>
+        <item>@string/tag_reports_year</item>
+        <item>@string/tag_reports_yearly</item>
+        <item>@string/pm_reports_month</item>
+        <item>@string/pm_reports_year</item>
+        <item>@string/pm_reports_yearly</item>
+        <item>@string/expenses_reports_month</item>
+        <item>@string/expenses_reports_year</item>
+        <item>@string/expenses_reports_yearly</item>
+    </string-array>
+
+    <string-array name="langReadable">
+        <item>@string/spanish</item>
+        <item>@string/galician</item>
+        <item>@string/english</item>
+    </string-array>
+
+    <string-array name="lang">
+        <item>@string/localeES</item>
+        <item>@string/localeGL</item>
+        <item>@string/localeEN</item>
+    </string-array>
+
+    <string name="localeES" translatable="false">ES</string>
+    <string name="localeGL" translatable="false">GL</string>
+    <string name="localeEN" translatable="false">EN</string>
+
+
+    <string name="spanish">Spanish</string>
+    <string name="galician">Galician</string>
+    <string name="english">English</string>
+
+    <string name="app_lang">Language</string>
+    <string name="app_lang_desc">Select your preferred language</string>
+    <string name="settings">Settings</string>
+    <string name="save_settings">Save settings</string>
+    <string name="default_currency">Default currency</string>
+    <string name="current_pass">Current password</string>
+    <string name="new_password">New password</string>
+    <string name="change_password">Change password</string>
+    <string name="your_account">Your account</string>
+    <string name="incorrect_password">Verification failed, please input the correct password</string>
+    <string name="password_inadequate">Password must have 8 or more characters</string>
+    <string name="password_changed">Password changed successfully</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="modify_bill">Modify bill</string>
+    <string name="bill_modified">Bill modified</string>
+    <string name="bill_deleted">Bill deleted</string>
+    <string name="none">None</string>
+    <string name="user_registered">User registered successfully</string>
+    <string name="unique_exists_error">User exists already</string>
+    <string name="timeout_error">Connection timed out!</string>
+    <string name="invalid_parameters">Could not create user, invalid parameters</string>
+    <string name="edit_bill">Edit bill</string>
+    <string name="budget_not_found">Budget not found</string>
+    <string name="invalid_interval">Can only create budgets in the present or future</string>
+    <string name="invalid_limit">Invalid limits, make sure hard limit is higher than the soft limit</string>
+    <string name="your_bills">Your bills</string>
+    <string name="month">Month</string>
+    <string name="switch_month">Switch month</string>
+    <string name="enter_valid_year">Enter valid year</string>
+    <string name="invalid_year">Valid years are between 1970 and the current year</string>
+    <string name="username_or_email">Username or email</string>
+
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/budget_frame_id"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:padding="@dimen/card_padding">
+
+    <TextView
+        android:id="@+id/txt_budget_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <ImageView
+        android:id="@+id/img_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_budget_header"
+        android:importantForAccessibility="no"
+        app:srcCompat="@drawable/time_icon" />
+
+    <TextView
+        android:id="@+id/txt_interval_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_budget_header"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@id/img_time" />
+
+    <ImageView
+        android:id="@+id/img_budget_limit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_time"
+        android:importantForAccessibility="no"
+        app:srcCompat="@drawable/budget_icon" />
+
+    <TextView
+        android:id="@+id/txt_budget_limit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_time"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="15dp"
+        android:layout_toEndOf="@id/img_budget_limit" />
+
+    <View
+        android:id="@+id/border_id"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/txt_budget_limit"
+        android:background="@android:color/darker_gray" />
+
+
+</RelativeLayout>

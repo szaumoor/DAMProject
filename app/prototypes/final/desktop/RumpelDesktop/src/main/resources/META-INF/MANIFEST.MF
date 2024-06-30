@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Main-Class: com.rumpel.rumpeldesktop.Launcher
+Class-Path: ./libs/javafx-graphics-21-ea+24.jar ./libs/javafx-graphics-2
+ 1-ea+24-linux.jar ./libs/javafx-graphics-21-ea+24-win.jar ./libs/javafx
+ -fxml-21-ea+24.jar ./libs/javafx-fxml-21-ea+24-win.jar ./libs/javafx-fx
+ ml-21-ea+24-linux.jar ./libs/javafx-base-21-ea+24.jar ./libs/javafx-bas
+ e-21-ea+24-win.jar ./libs/javafx-base-21-ea+24-linux.jar ./libs/javafx-
+ controls-21-ea+24.jar ./libs/javafx-controls-21-ea+24-win.jar ./libs/ja
+ vafx-controls-21-ea+24-linux.jar ./libs/javafx-swing-21.0.1-win.jar ./l
+ ibs/javafx-swing-21.0.1-linux.jar ./libs/mongodb-driver-sync-4.11.0.jar
+  ./libs/annotations-24.1.0.jar ./libs/RumpelModel.jar ./libs/JavaUtils.
+ jar ./libs/bootstrapfx-core-0.4.0.jar ./libs/bson-4.11.0.jar ./libs/slf
+ 4j-api-2.0.7.jar ./libs/log4j-core-2.21.1.jar ./libs/log4j-api-2.21.1.j
+ ar ./libs/formsfx-core-11.6.0.jar ./libs/bson-record-codec-4.11.0.jar./
+  ./libs/mongodb-driver-core-4.11.0.jar ./libs/jmail-1.5.1.jar ./libs/co
+ ntrolsfx-11.1.2.jar ./libs/password4j-1.7.3.jar ./libs/pdfbox-3.0.1.jar
+  ./libs/pdfbox-io-3.0.1.jar ./libs/commons-logging-1.2.jar ./libs/fontb
+ ox-3.0.1.jar
+

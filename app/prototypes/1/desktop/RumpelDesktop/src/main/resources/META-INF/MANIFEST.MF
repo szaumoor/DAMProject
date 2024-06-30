@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Main-Class: com.rumpel.rumpeldesktop.Launcher
+Class-Path: ./libs/bson-4.11.0.jar ./libs/mongodb-driver-sync-4.11.0.jar
+  ./libs/mongodb-driver-core-4.11.0.jar ./libs/ikonli-javafx-12.3.1.jar 
+ ./libs/bootstrapfx-core-0.4.0.jar ./libs/validatorfx-0.4.0.jar ./libs/f
+ ormsfx-core-11.6.0.jar ./libs/slf4j-api-2.0.7.jar ./libs/log4j-api-2.21
+ .1.jar ./libs/bson-record-codec-4.11.0.jar ./libs/ikonli-core-12.3.1.ja
+ r ./libs/jmail-1.5.1.jar ./libs/RumpelModel.jar ./libs/log4j-core-2.21.
+ 1.jar ./libs/controlsfx-11.1.2.jar ./libs/password4j-1.7.3.jar
+

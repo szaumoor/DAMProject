@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/about_padding">
+
+    <ImageView
+        android:id="@+id/frag_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/about_symbol_size"
+        app:srcCompat="@drawable/nav_menu_money"
+        android:importantForAccessibility="no" />
+
+    <TextView
+        android:id="@+id/about_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/nav_menu_bottom_margin"
+        android:fontFamily="sans-serif-medium"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/about_heading_author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/about_body_margin_bottom"/>
+
+    <TextView
+        android:id="@+id/about_powered_by"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/about_body_margin_bottom"/>
+
+    <Button
+        android:id="@+id/btn_modify_id"
+        android:layout_width="@dimen/about_btn_size"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/about_dialog_ok" />
+</LinearLayout>

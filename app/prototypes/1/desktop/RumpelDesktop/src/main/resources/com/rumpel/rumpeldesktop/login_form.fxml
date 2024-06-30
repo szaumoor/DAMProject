@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<HBox fx:id="mainPane" onKeyPressed="#enterPressed" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rumpel.rumpeldesktop.mvc.controllers.LoginFormController">
+    <AnchorPane prefHeight="400.0" prefWidth="260.0" style="-fx-background-color: lightyellow;">
+        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="55.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@dollar-icon.png" />
+        </ImageView>
+        <Label layoutX="60.0" layoutY="200.0" styleClass="h1" text="Rumpel">
+            <font>
+                <Font name="Arial Bold" size="38.0" />
+            </font>
+        </Label>
+        <ImageView fitHeight="110.0" fitWidth="110.0" layoutX="75.0" layoutY="276.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@login-icon.png" />
+        </ImageView>
+      <styleClass>
+         <String fx:value="panel" />
+         <String fx:value="panel-info" />
+      </styleClass>
+    </AnchorPane>
+    <AnchorPane prefHeight="400.0" prefWidth="519.0">
+        <ImageView fitHeight="110.0" fitWidth="110.0" layoutX="164.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@lock-icon.png" />
+        </ImageView>
+        <Label layoutX="12.0" layoutY="168.0" prefHeight="36.0" prefWidth="150.0" style="-fx-text-fill: black; -fx-font-size: 14px; -fx-alignment: center-left;" styleClass="lbl" text="%username_or_email" AnchorPane.leftAnchor="20.0">
+            <font>
+                <Font name="Arial" size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="12.0" layoutY="228.0" prefHeight="36.0" prefWidth="150.0" style="-fx-text-fill: black; -fx-font-size: 14px; -fx-alignment: center-left;" styleClass="lbl" text="%password" AnchorPane.leftAnchor="20.0">
+            <font>
+                <Font name="Arial" size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="180.0" layoutY="353.0" prefHeight="19.0" prefWidth="150.0" text="%not_a_member_yet">
+            <font>
+                <Font name="Arial" size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="userTxtField" layoutX="180.0" layoutY="168.0" prefHeight="36.0" prefWidth="243.0" promptText="%username_or_email" />
+        <PasswordField fx:id="passField" layoutX="180.0" layoutY="228.0" prefHeight="36.0" prefWidth="243.0" promptText="%password" />
+        <Button layoutX="180.0" layoutY="284.0" mnemonicParsing="false" onAction="#login" prefHeight="27.0" prefWidth="90.0" text="%login">
+            <font>
+                <Font name="Arial" size="14.0" />
+            </font>
+         <styleClass>
+            <String fx:value="btn" />
+            <String fx:value="btn-primary" />
+         </styleClass>
+            <effect>
+                <DropShadow spread="0.1">
+                    <color>
+                        <Color opacity="0.5" />
+                    </color>
+                </DropShadow>
+            </effect>
+            <cursor>
+                <Cursor fx:constant="OPEN_HAND" />
+            </cursor>
+        </Button>
+        <Button layoutX="330.0" layoutY="350.0" mnemonicParsing="false" onAction="#switchToSignUp" style="-fx-background-color: transparent;" text="%sign_up" textFill="#2146ff" textOverrun="CENTER_ELLIPSIS" underline="true">
+            <font>
+                <Font name="Arial" size="14.0" />
+            </font>
+        </Button>
+        <ProgressIndicator fx:id="signingProgress" layoutX="296.0" layoutY="280.0" prefHeight="36.0" prefWidth="34.0" visible="false" />
+      <CheckBox fx:id="showPassCheck" layoutX="20.0" layoutY="284.0" mnemonicParsing="false" prefHeight="19.0" prefWidth="140.0" text="%show_pass" />
+      <TextField fx:id="showPassField" layoutX="179.0" layoutY="228.0" prefHeight="36.0" prefWidth="243.0" promptText="%password" visible="false" />
+      <styleClass>
+         <String fx:value="panel" />
+         <String fx:value="panel-info" />
+      </styleClass>
+      <opaqueInsets>
+         <Insets />
+      </opaqueInsets>
+      <HBox.margin>
+         <Insets />
+      </HBox.margin>
+    </AnchorPane>
+</HBox>

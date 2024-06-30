@@ -1,0 +1,25 @@
+<resources>
+    <dimen name="general_padding">20dp</dimen>
+    <dimen name="about_padding">16dp</dimen>
+    <dimen name="card_padding">8dp</dimen>
+
+    <dimen name="nav_menu_bottom_margin">16dp</dimen>
+    <dimen name="nav_menu_text_size">14sp</dimen>
+    <dimen name="nav_menu_header_height">176sp</dimen>
+
+    <dimen name="about_symbol_size">50sp</dimen>
+    <dimen name="about_body_margin_bottom">20sp</dimen>
+    <dimen name="about_btn_size">125dp</dimen>
+
+    <dimen name="date_margin">20dp</dimen>
+    <dimen name="date_txt_size">18sp</dimen>
+    <dimen name="date_listview_margin">20dp</dimen>
+    <dimen name="date_list_view_height">225dp</dimen>
+
+    <dimen name="max_date_btn_size">88dip</dimen>
+    <dimen name="min_date_btn_size">40dip</dimen>
+
+    <dimen name="no_size">0dp</dimen>
+    <dimen name="spinner_min_height">48dp</dimen>
+
+</resources>

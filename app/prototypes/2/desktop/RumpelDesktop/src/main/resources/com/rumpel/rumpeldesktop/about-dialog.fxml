@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<DialogPane fx:id="pane" prefHeight="194.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rumpel.rumpeldesktop.mvc.controllers.AboutDialogController">
+   <content>
+       <VBox alignment="TOP_CENTER" prefWidth="373.0">
+           <Label fx:id="lblHeading" alignment="TOP_CENTER" prefHeight="35.0" prefWidth="422.0" text="%about_rumpel_app">
+               <font>
+                   <Font name="System Bold" size="24.0" />
+               </font>
+           </Label>
+           <VBox prefHeight="125.0" prefWidth="100.0">
+               <Separator opacity="0.0" prefHeight="15.0" prefWidth="487.0" />
+               <Label fx:id="lblAboutTxt" alignment="TOP_CENTER" styleClass="p" text="%about_text">
+               <font>
+                  <Font size="16.0" />
+               </font></Label>
+               <Separator opacity="0.0" prefHeight="15.0" prefWidth="487.0" />
+               <Label fx:id="lblAboutContact" alignment="TOP_CENTER" styleClass="p" text="%contact_email">
+               <font>
+                  <Font size="16.0" />
+               </font></Label>
+               <Separator opacity="0.0" prefHeight="15.0" prefWidth="487.0" />
+               <Label fx:id="lblPowered" alignment="TOP_CENTER" styleClass="p" text="%about_powered">
+               <font>
+                  <Font size="16.0" />
+               </font></Label>
+           </VBox>
+       </VBox>
+   </content>
+   <styleClass>
+      <String fx:value="panel" />
+      <String fx:value="panel-info" />
+   </styleClass>
+</DialogPane>

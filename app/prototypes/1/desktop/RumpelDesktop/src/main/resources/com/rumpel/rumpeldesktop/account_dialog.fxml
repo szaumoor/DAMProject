@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="205.0" prefWidth="514.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rumpel.rumpeldesktop.mvc.controllers.AccountDialogController">
+   <center>
+      <BorderPane prefHeight="248.0" prefWidth="384.0">
+         <center>
+            <AnchorPane prefHeight="165.0" prefWidth="474.0" BorderPane.alignment="CENTER">
+               <Label layoutX="14.0" layoutY="44.0" prefHeight="36.0" prefWidth="118.0" text="%new_password" textAlignment="CENTER" />
+               <PasswordField layoutX="156.0" layoutY="45.0" prefHeight="36.0" prefWidth="318.0" />
+               <Label layoutX="14.0" layoutY="101.0" prefHeight="36.0" prefWidth="118.0" text="%confirm_password" textAlignment="CENTER" />
+               <PasswordField layoutX="156.0" layoutY="102.0" prefHeight="36.0" prefWidth="318.0" />
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </center>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</BorderPane>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="331.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rumpel.rumpeldesktop.mvc.controllers.SettingsDialogController">
+   <center>
+      <AnchorPane prefHeight="400.0" prefWidth="600.0">
+         <Label layoutX="71.0" layoutY="61.0" prefHeight="26.0" prefWidth="162.0" styleClass="p" text="%default_currency" />
+         <ComboBox fx:id="currComboBox" layoutX="233.0" layoutY="61.0" prefHeight="28.0" prefWidth="289.0" />
+         <Label layoutX="71.0" layoutY="112.0" prefHeight="26.0" prefWidth="162.0" styleClass="p" text="%app_language" />
+         <ComboBox fx:id="langComboBox" layoutX="233.0" layoutY="111.0" prefHeight="28.0" prefWidth="289.0" />
+         <Label fx:id="outputLbl" layoutX="71.0" layoutY="163.0" prefHeight="26.0" prefWidth="162.0" styleClass="p" text="%def_output_dir" />
+         <TextField fx:id="outputTxt" editable="false" layoutX="233.0" layoutY="161.0" prefHeight="32.0" prefWidth="238.0" />
+         <Button fx:id="outputBtn" layoutX="476.0" layoutY="164.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="46.0" text="%ellipsis" />
+         <CheckBox fx:id="checkOutput" layoutX="71.0" layoutY="219.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="454.0" text="%use_current_dir" />
+      </AnchorPane>
+   </center>
+</BorderPane>

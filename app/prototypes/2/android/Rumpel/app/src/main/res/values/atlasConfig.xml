@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="realm_app_id" translatable="false">devicesync-vuexq</string>
+    <string name="realm_app_url" translatable="false">https://realm.mongodb.com/groups/653baffa8649ce20d7d47c50/apps/6540f45a830f527fcd37ce5f</string>
+    <string name="realm_base_url" translatable="false">https://realm.mongodb.com</string>
+    <string name="realm_client_api_base_url" translatable="false">https://eu-central-1.aws.realm.mongodb.com</string>
+    <string name="realm_data_api_base_url" translatable="false">https://eu-central-1.aws.data.mongodb-api.com</string>
+    <string name="realm_data_explorer_link" translatable="false">https://cloud.mongodb.com/links/653baffa8649ce20d7d47c50/explorer/Cluster0/database/collection/find</string>
+    <string name="realm_data_source_name" translatable="false">mongodb-atlas</string>
+</resources>
